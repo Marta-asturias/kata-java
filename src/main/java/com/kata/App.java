@@ -12,9 +12,11 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-       Weird weird = new Weird();
-       String numb = weird.Print(8);
-       System.out.println(numb);
+        Weird weird = new Weird();
+        String numb = weird.Print(8);
+        System.out.println(numb); 
+
+       
 
         
     }
